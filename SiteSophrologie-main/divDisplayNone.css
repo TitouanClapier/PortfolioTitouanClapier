@@ -1,0 +1,52 @@
+#homeDiv {
+    display: none;
+}
+#cardioDiv {
+    display: none;
+}
+#stressDiv {
+    display: none;
+}
+#devpersoDiv {
+    display: none;
+}
+#presentationDiv {
+    display: none;
+}
+#appointmentDiv {
+    display: none;
+}
+#questionsDiv {
+    display: none;
+}
+#defDiv {
+    display: none;
+}
+#cibleDiv {
+    display: none;
+}
+#complementaireDiv {
+    display: none;
+}
+#derouleseanceDiv {
+    display: none;
+}
+#legalDiv {
+    display: none;
+}
+@media screen and (max-width: 992px){
+    #titleMenu {
+        display: block;
+    }
+    #navMenu {
+        max-height: 1000px;
+    }
+}
+@media screen and (min-width: 992px){
+    #titleMenu {
+        display: none;
+    }
+    #navMenu {
+        height: 80px;
+    }
+}

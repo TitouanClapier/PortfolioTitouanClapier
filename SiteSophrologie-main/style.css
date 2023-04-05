@@ -1,0 +1,100 @@
+@font-face {
+    font-family: "cera-pro-bold";
+    src: url("police/cera-pro-font/Cera-Pro-Bold.ttf");
+}
+@font-face {
+    font-family: "arial-unicde-ms";
+    src: url("police/arial-unicde-ms/arial-unicode-ms.ttf");
+}
+@font-face {
+    font-family: "segoe-print";
+    src: url("police/segoe-print/segoeprb.ttf");
+}
+
+.buttonMenu {
+    font-family: cera-pro-bold;
+    font-size: 18;
+    color: #000!important;
+}
+
+#menuButtonMain {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 60px;
+    background-color: #4c693d;
+}
+
+.carousel-item img {
+    height: auto;
+    width: auto;
+    object-fit: cover;
+}
+
+.chapter {
+    width: 100%;
+    background-color: white;
+    height: auto;
+}
+
+.chapter div {
+    margin-left: 15px;
+    margin-right: 15px;
+}
+.containChapter {
+    margin-left: 5px;
+}
+
+.imgDiv {
+    width: 100%;
+}
+
+body {
+    font-family: arial-unicde-ms;
+}
+footer {
+    font-family: arial-unicde-ms;
+}
+
+.link {
+    font-family: arial-unicde-ms;
+    text-decoration: none;
+    color: #000;
+}
+.link:hover {
+    font-family: arial-unicde-ms;
+    text-decoration: none;
+    color: #4c693d;
+}
+
+p {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-family: arial-unicde-ms;
+}
+h3 {
+    font-family: segoe-print;
+    font-size: 32px;
+    color: #4c693d;
+    margin-top: 25px;
+    margin-bottom: 15px;
+    margin-left: 5px;
+}
+
+h4 {
+    font-family: segoe-print;
+    font-size: 24px;
+    color: #698bae;
+    margin-top: 25px;
+    margin-bottom: 15px;
+}
+
+h5 {
+    color: #33cccc;
+    font-family: cera-pro-bold;
+    font-size: 18px;
+}
+
+
