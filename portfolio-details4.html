@@ -164,13 +164,13 @@
         
         <p>
           <br><strong>Competence utiliser :</strong>           
-          <h6>Développement d'un site WordPress en exploitant les données de l'organisation grâce à un cahier des charges et de maquettes Adobe XD:</h6>
+          <br><h6>Développement d'un site WordPress en exploitant les données de l'organisation grâce à un cahier des charges et de maquettes Adobe XD:</h6>
           <br>
           <br><img src="assets/img/portfolio/Capture19.PNG" alt="" >
-          <h6>Développer la présence en ligne de l’organisation via differents moyens, référencer les services en ligne de l’organisation et mesurer leur visibilité :</h6>
+          <br><h6>Développer la présence en ligne de l’organisation via differents moyens, référencer les services en ligne de l’organisation et mesurer leur visibilité :</h6>
           <br>
           <br><img src="assets/img/portfolio/Capture20.PNG" alt="" >
-          Utilisation de slug, de mot clés, de meta-title, de meta description:
+          <br>Utilisation de slug, de mot clés, de meta-title, de meta description:
           <br><img src="assets/img/portfolio/Capture21.PNG" alt="" >
         </p>
 
@@ -212,6 +212,23 @@
   <script src="assets/vendor/php-email-form/validate.js"></script>
 
   <!-- Template Main JS File -->
+    <script>
+    window.addEventListener('load', function() {
+      // Sélectionner toutes les images sur la page
+      const images = document.getElementsByTagName('img');
+
+      // Parcourir toutes les images et les redimensionner
+      for (let i = 0; i < images.length; i++) {
+        const img = images[i];
+        const currentWidth = img.width;
+        const currentHeight = img.height;
+        const newWidth = currentWidth * 0.75; // Réduire la largeur de 1/4
+        const newHeight = currentHeight * 0.75; // Réduire la hauteur de 1/4
+        img.style.width = newWidth + 'px';
+        img.style.height = newHeight + 'px';
+      }
+    });
+  </script>
   <script src="assets/js/main.js"></script>
 
 </body>
