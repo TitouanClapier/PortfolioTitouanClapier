@@ -1076,12 +1076,15 @@ section {
   padding: 15px;
   color: #f4f6fd;
   font-size: 14px;
+  background: #040b14;
+}
+
+:not(.detail-page) #footer {
   position: fixed;
   left: 0;
   bottom: 0;
   width: 300px;
   z-index: 9999;
-  background: #040b14;
 }
 
 #footer .copyright {
@@ -1101,4 +1104,13 @@ section {
     width: auto;
     padding-right: 20px 15px;
   }
+}
+
+/* Detail pages layout */
+.detail-page #header {
+  display: none;
+}
+
+.detail-page #main {
+  margin-left: 0;
 }
