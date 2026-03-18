@@ -1101,9 +1101,9 @@ section {
 
 /* Detail pages layout */
 .detail-page #header {
-  display: none;
+  display: block;
 }
 
 .detail-page #main {
-  margin-left: 0;
+  margin-left: 300px;
 }
