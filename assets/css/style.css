@@ -1107,3 +1107,17 @@ section {
 .detail-page #main {
   margin-left: 300px;
 }
+
+.portfolio-wrap {
+    width: 100%;
+    height: 400px;
+    overflow: hidden;
+    border-radius: 8px;
+}
+
+.portfolio-wrap img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
